@@ -38,7 +38,7 @@ color ,red ":".+$"
 color ,red "\s+$"
 
 ## Non closed quote
-color ,red "['\"][^['\"]]*$"
+color ,red "['\"[][^['\"]]]*$"
 
 ## Closed quotes
 color yellow "['\"].*['\"]"
